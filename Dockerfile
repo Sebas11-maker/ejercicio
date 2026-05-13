@@ -12,7 +12,7 @@ FROM amazoncorretto:21-alpine
 
 WORKDIR /app
 
-COPY --from=builder /app/build/libs/*.jar app.jar
+COPY --from=builder /app/build/libs/*.jar uce-0.0.1-SNAPSHOT.jar
 
 EXPOSE 8080
 
