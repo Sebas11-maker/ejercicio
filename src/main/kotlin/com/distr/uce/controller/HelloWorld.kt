@@ -8,6 +8,6 @@ class HelloWorld() {
 
     @GetMapping
     fun helloWorldGet() : String {
-        return "Hello, World! DEV"
+        return "Hello, World! QA"
     }
 }
