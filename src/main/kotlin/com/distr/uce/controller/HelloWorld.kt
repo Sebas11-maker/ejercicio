@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 class HelloWorld() {
 
     @GetMapping
-    fun HelloWorldGet() {
+    fun helloWorldGet() : String {
         return "Hello, World!"
     }
 }

@@ -1,0 +1,8 @@
+version: '3.9'
+
+services:
+  uce-app:
+    build: .
+    container_name: uce_hello_world
+    ports:
+      - "8080:8080"
