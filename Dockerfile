@@ -9,9 +9,8 @@ WORKDIR /app
 COPY . .
 
 # Compilar el proyecto
-RUN gradle build --no-daemon
-
-# =========================
+RUN gradle clean bootJar --no-daemon
+    # =========================
 # ETAPA 2 - RUNTIME
 # =========================
 FROM amazoncorretto:21-alpine
